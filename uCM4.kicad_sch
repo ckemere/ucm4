@@ -8603,6 +8603,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_names
@@ -9068,6 +9218,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "To Add: Battery boost, IMU"
+		(exclude_from_sim no)
+		(at 294.386 91.694 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+				(color 255 10 16 1)
+			)
+		)
+		(uuid "3d34ece5-6142-49a1-8f94-b0be4ec5f41a")
+	)
 	(text "Altium file said that cam 0 -> cam 1 pins btw?"
 		(exclude_from_sim no)
 		(at 509.778 138.938 0)
@@ -9089,6 +9250,17 @@
 			)
 		)
 		(uuid "7612f694-45b7-46b2-94a2-359960d3a7ee")
+	)
+	(text "Verify footprint match + choose pins"
+		(exclude_from_sim no)
+		(at 287.274 287.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 11 0 1)
+			)
+		)
+		(uuid "7c725dd6-2ce2-4dc1-9ce0-faa2c96fdbc2")
 	)
 	(text "Why is N to + and P to - ?"
 		(exclude_from_sim no)
@@ -20158,6 +20330,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 280.67 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe83058-ece9-48bb-927e-fe3d61eeb444")
+		(property "Reference" "SW3"
+			(at 280.67 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 280.67 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 280.67 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 280.67 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69cebee0-4a99-4840-81fc-f4338e37a219")
+		)
+		(pin "1"
+			(uuid "7b62796c-148c-4c0e-be8b-e5eeffbb3033")
+		)
+		(instances
+			(project ""
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Special:Micro_SD_Card_Det")
 		(at 246.38 224.79 0)
 		(unit 1)
@@ -20942,6 +21182,74 @@
 			(project ""
 				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 297.18 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d039461d-4275-41ba-83e5-42a5b06e6e90")
+		(property "Reference" "SW4"
+			(at 297.18 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 297.18 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+			(at 297.18 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 297.18 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfe823f2-103b-403c-b02e-ae8af1cc6d26")
+		)
+		(pin "1"
+			(uuid "156a55ec-08b1-48d1-a72d-ce2fbe49bd12")
+		)
+		(instances
+			(project "uCM4"
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
