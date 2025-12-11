@@ -14574,10 +14574,6 @@
 		(uuid "1cde6b28-ef14-4cd5-81b2-b26de2d5a72e")
 	)
 	(no_connect
-		(at 458.47 59.69)
-		(uuid "1cde6b28-ef14-4cd5-81b2-b26de2d5a72f")
-	)
-	(no_connect
 		(at 349.25 60.96)
 		(uuid "1e3c973b-3547-40b6-adeb-fd06a4929fca")
 	)
@@ -14704,6 +14700,10 @@
 	(no_connect
 		(at 190.5 311.15)
 		(uuid "907da3cf-9b3f-4018-abea-05436a607d0a")
+	)
+	(no_connect
+		(at 433.07 59.69)
+		(uuid "9430a6eb-d37b-431a-b626-4dc3f7a4c178")
 	)
 	(no_connect
 		(at 80.01 259.08)
@@ -19043,16 +19043,6 @@
 		)
 		(uuid "79b24b59-2828-4b62-9f99-cfbf28301737")
 	)
-	(label "USB_P"
-		(at 433.07 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79bdb6ad-b07f-4741-a4df-3e47a603e5d7")
-	)
 	(label "USB_N"
 		(at 494.03 46.99 0)
 		(effects
@@ -19582,6 +19572,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd497ac5-bc74-4aee-9cae-25acdaeb0176")
+	)
+	(label "USB_P"
+		(at 458.47 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd5e18e3-3ffd-4975-a648-318fb7a6be4d")
 	)
 	(label "TXD3"
 		(at 170.18 68.58 0)
