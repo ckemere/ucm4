@@ -4782,11 +4782,11 @@
 	(footprint "LED_SMD:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "44e243b6-c053-405f-b07b-2bc03bda49f7")
-		(at 141.3 112.0625 -90)
+		(at 159.75 115.75)
 		(descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D7"
-			(at 0 -1.17 90)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(uuid "4078f88c-d6ed-4f0c-812c-709ff0a7fd09")
 			(effects
@@ -4797,7 +4797,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.17 90)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "1db975ad-daf9-4a71-81f2-0187e5fd1423")
 			(effects
@@ -4808,7 +4808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6ec5ff67-6faf-42dc-b986-438f8ed9d3c6")
@@ -4820,7 +4820,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9511da95-f6c1-4d5f-bc04-5d3258462a28")
@@ -4832,7 +4832,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4851,7 +4851,7 @@
 		(attr smd)
 		(fp_circle
 			(center -1.089999 -0.000001)
-			(end -1.040002 -0.000004)
+			(end -1.040001 -0.000004)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -4861,8 +4861,8 @@
 			(uuid "01a792a7-0e3c-4430-9636-551d10e5043d")
 		)
 		(fp_line
-			(start -0.930001 0.470002)
-			(end -0.93 -0.470001)
+			(start -0.930002 0.470002)
+			(end -0.93 -0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4871,18 +4871,8 @@
 			(uuid "d10693dc-eb94-43ac-9417-5d774a0944a8")
 		)
 		(fp_line
-			(start 0.93 0.470001)
-			(end -0.930001 0.470002)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "564f6a3b-eca9-4543-ae02-a1c6621ce59f")
-		)
-		(fp_line
-			(start -0.93 -0.470001)
-			(end 0.930001 -0.470002)
+			(start -0.93 -0.47)
+			(end 0.930002 -0.470002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4891,14 +4881,34 @@
 			(uuid "2026c0c6-fa29-4635-951c-91a96b28db36")
 		)
 		(fp_line
-			(start 0.930001 -0.470002)
-			(end 0.93 0.470001)
+			(start 0.93 0.47)
+			(end -0.930002 0.470002)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "564f6a3b-eca9-4543-ae02-a1c6621ce59f")
+		)
+		(fp_line
+			(start 0.930002 -0.470002)
+			(end 0.93 0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
 			(uuid "acfcfaf9-0579-44da-b8b0-ca2011b922ac")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "79f8e19f-fb4e-4735-92ae-376d028ddc1b")
 		)
 		(fp_line
 			(start -0.5 0.25)
@@ -4911,18 +4921,8 @@
 			(uuid "a51e2588-c696-4e07-bce1-cef21e794fb6")
 		)
 		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b55235de-e234-4c6c-a8b1-4a574cb1e3ef")
-		)
-		(fp_line
-			(start -0.399998 0.249999)
-			(end -0.399999 -0.249998)
+			(start -0.399999 0.25)
+			(end -0.4 -0.249999)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -4941,16 +4941,6 @@
 			(uuid "7cd2339c-c09a-4416-bbb1-7cfec5c48a31")
 		)
 		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "79f8e19f-fb4e-4735-92ae-376d028ddc1b")
-		)
-		(fp_line
 			(start 0.5 -0.25)
 			(end 0.5 0.25)
 			(stroke
@@ -4960,8 +4950,18 @@
 			(layer "F.Fab")
 			(uuid "eb3f39f9-3a6e-4abd-9b3a-f8d5322befc7")
 		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b55235de-e234-4c6c-a8b1-4a574cb1e3ef")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2b5c663d-3395-4109-8825-aaca6d8195d4")
 			(effects
@@ -4972,7 +4972,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.484998 0 270)
+			(at -0.484998 0)
 			(size 0.59 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4982,7 +4982,7 @@
 			(uuid "cb7e2074-0be3-4272-9925-85c7858c5086")
 		)
 		(pad "2" smd roundrect
-			(at 0.484998 0 270)
+			(at 0.484998 0)
 			(size 0.59 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20397,7 +20397,7 @@
 	(footprint "LED_SMD:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "faddbb4f-ae9f-40d5-9510-82779b9a19a6")
-		(at 147.125 112.1875)
+		(at 159.765 117.25)
 		(descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
