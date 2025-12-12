@@ -14788,6 +14788,17 @@
 		)
 		(uuid "da11720d-eb78-4fff-89b1-0239b553affc")
 	)
+	(text "Still need to fix distances for diff pairs"
+		(exclude_from_sim no)
+		(at -12.954 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 2 38 1)
+			)
+		)
+		(uuid "dc0b2721-f6cf-410f-9099-cf992eab6ef1")
+	)
 	(text "Remove all parts from bottom of board\nCheck HaLow compat if possible"
 		(exclude_from_sim no)
 		(at 472.44 210.82 0)
@@ -20820,6 +20831,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C250547"
+			(at 271.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "439a0826-2a4b-4f2a-9a85-b9cbf2766a09")
 		)
@@ -20943,6 +20963,15 @@
 			)
 		)
 		(property "Field8" "111893011"
+			(at 229.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C117956"
 			(at 229.87 52.07 0)
 			(effects
 				(font
@@ -21298,7 +21327,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C424649"
+		(property "LCSC Part #" "C424649"
 			(at 81.28 275.59 0)
 			(effects
 				(font
@@ -22049,6 +22078,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19702"
+			(at 339.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0a61edaa-d355-4c50-9de4-995c92ff1d73")
 		)
@@ -22191,7 +22229,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C21190"
+		(property "LCSC Part #" "C21190"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -22525,7 +22563,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C181863"
+		(property "LCSC Part #" "C181863"
 			(at 176.53 147.32 0)
 			(effects
 				(font
@@ -22884,6 +22922,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C597981"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "ddfbf473-d7e7-4c09-897e-cadfcb05e152")
 		)
@@ -23015,7 +23062,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7829"
+		(property "LCSC Part #" "C7829"
 			(at 161.29 135.89 0)
 			(effects
 				(font
@@ -23523,6 +23570,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 497.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25905"
+			(at 497.84 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25019,7 +25075,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C221911"
+		(property "LCSC Part #" "C221907"
 			(at 54.61 337.82 90)
 			(effects
 				(font
@@ -25669,6 +25725,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25905"
+			(at 497.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "deb25f50-07bc-41c4-a09c-312f2764ee58")
 		)
@@ -26218,7 +26283,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C424649"
+		(property "LCSC Part #" "C424649"
 			(at 113.03 271.78 0)
 			(effects
 				(font
@@ -27029,6 +27094,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19191626"
+			(at 363.22 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03bf9bbf-1f69-46e6-a9d8-aaed3d0d2304")
 		)
@@ -27091,6 +27165,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 379.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14445"
 			(at 379.73 77.47 0)
 			(effects
 				(font
@@ -27652,6 +27735,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C3040102"
+			(at 440.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efdde59e-1b5e-4703-907f-616540c1b8d9")
 		)
@@ -28030,6 +28122,15 @@
 			)
 		)
 		(property "Field8" "UCON00512"
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C428492"
 			(at 274.32 55.88 0)
 			(effects
 				(font
@@ -28587,6 +28688,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C60490"
+			(at 341.63 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a09b15fe-ee84-4eaf-88b4-fa591ca50d68")
 		)
@@ -28648,6 +28758,15 @@
 			)
 		)
 		(property "Description" "8A Boost Converter, 0.5-5.5 V input, 2.2-5.5V output, Texas RWU0007A VQFN-7"
+			(at 363.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C915088"
 			(at 363.22 148.59 0)
 			(effects
 				(font
@@ -28733,6 +28852,15 @@
 			)
 		)
 		(property "Description" "Intelligent 9-axis absolute orientation sensor, LGA-28"
+			(at 364.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C93216"
 			(at 364.49 60.96 0)
 			(effects
 				(font
@@ -28947,6 +29075,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 386.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C269673"
 			(at 386.08 154.94 0)
 			(effects
 				(font
@@ -29381,6 +29518,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x22, script generated"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C597981"
 			(at 101.6 137.16 0)
 			(effects
 				(font
@@ -29923,6 +30069,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C72043"
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7c8a796-8e60-4a78-b7a1-d29567c5189d")
 		)
@@ -30126,7 +30281,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C21190"
+		(property "LCSC Part #" "C21190"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -30402,6 +30557,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C221907"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69cebee0-4a99-4840-81fc-f4338e37a219")
 		)
@@ -30596,7 +30760,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C72043"
+		(property "LCSC Part #" "C72043"
 			(at 166.37 162.56 0)
 			(effects
 				(font
@@ -30814,6 +30978,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14445"
+			(at 378.46 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f2a617c7-5bee-40b8-86a9-4c3ad2b8a08f")
 		)
@@ -30875,6 +31048,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 358.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 358.14 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31078,7 +31260,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C21190"
+		(property "LCSC Part #" "C21190"
 			(at 154.94 162.56 0)
 			(effects
 				(font
@@ -31354,6 +31536,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C60490"
+			(at 341.63 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2bf4e3c-a471-41d3-b7ba-987f8a667d53")
 		)
@@ -31459,6 +31650,15 @@
 			)
 		)
 		(property "Part Description" "Resistor 12K M1005 1% 63mW"
+			(at 292.735 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25752"
 			(at 292.735 82.55 0)
 			(effects
 				(font
@@ -31718,6 +31918,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 478.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5184243"
 			(at 478.79 48.26 0)
 			(effects
 				(font
@@ -32161,6 +32370,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19702"
+			(at 339.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1af77d31-9430-401b-bef4-72bc258498fe")
 		)
@@ -32184,9 +32402,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e5699915-20bf-4a72-858c-698cf2db765a")
 		(property "Reference" "C3"
-			(at 370.84 33.274 90)
+			(at 370.84 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32194,7 +32413,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 372.618 36.068 90)
+			(at 370.84 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32221,6 +32440,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 370.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 370.84 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33000,6 +33228,15 @@
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
 			(at 342.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C727059"
+			(at 342.9 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
