@@ -522,7 +522,6 @@
         "bus_width": 6,
         "clearance": 0.16,
         "diff_pair_gap": 0.16,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.16,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -540,7 +539,6 @@
         "bus_width": 6,
         "clearance": 1.0,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -558,7 +556,6 @@
         "bus_width": 6,
         "clearance": 0.16,
         "diff_pair_gap": 0.16,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.16,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -618,6 +615,14 @@
       {
         "netclass": "90R",
         "pattern": "/USB_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CAM0_*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CAM1_*"
       }
     ]
   },

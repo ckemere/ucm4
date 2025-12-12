@@ -28050,7 +28050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
+		(property "Footprint" "CM4:SDCARD_MOLEX_503398-1892"
 			(at 326.39 38.1 0)
 			(effects
 				(font
