@@ -14551,6 +14551,17 @@
 		)
 		(uuid "064572e7-7361-41f5-8e20-551fc10cc747")
 	)
+	(text "Switched to super thinn B2B connectors bc we have the space <shrug>"
+		(exclude_from_sim no)
+		(at 167.386 205.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 2 9 1)
+			)
+		)
+		(uuid "0bd4b370-53f6-4100-9273-82537e719e77")
+	)
 	(text "Test Points"
 		(exclude_from_sim no)
 		(at 364.236 187.96 0)
@@ -14632,6 +14643,17 @@
 			)
 		)
 		(uuid "4aecfa76-968e-4a82-bc4f-3275855ec3e9")
+	)
+	(text "How long do we want these pins to be?"
+		(exclude_from_sim no)
+		(at 160.782 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 16 55 1)
+			)
+		)
+		(uuid "551a6c58-a80a-4978-b5c7-7dc2196db05d")
 	)
 	(text "UART extension pins (FDTI compatible)"
 		(exclude_from_sim no)
@@ -20589,6 +20611,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C60488"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be6377f8-a401-401c-9bdf-6f9152f2a7bd")
 		)
@@ -20703,6 +20734,15 @@
 			)
 		)
 		(property "Field8" "120889581"
+			(at 36.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C60488"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -21178,6 +21218,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C21190"
+			(at 429.26 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0de6b54c-36af-4a1f-866a-f64be843a9a3")
 		)
@@ -21238,6 +21287,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 448.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 448.31 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21327,7 +21385,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C424649"
+		(property "LCSC Part #" "C597931"
 			(at 81.28 275.59 0)
 			(effects
 				(font
@@ -22151,6 +22209,15 @@
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 487.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 487.68 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23421,6 +23488,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25882"
+			(at 464.82 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f2d874b8-125a-4158-96d2-0a6f5b736422")
 		)
@@ -24253,6 +24329,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C181863"
+			(at 436.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa47cbdc-7659-4735-838d-dfa149322b33")
 		)
@@ -24517,6 +24602,15 @@
 			)
 		)
 		(property "Description" "Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-6"
+			(at 450.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C725791"
 			(at 450.85 157.48 0)
 			(effects
 				(font
@@ -25154,6 +25248,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C160390"
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "21f89a04-22bd-4cd6-b618-3d38675ffd0c")
 		)
@@ -25418,6 +25521,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C221661"
+			(at 171.45 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "472109bf-b761-4154-b043-e034295f634c")
 		)
@@ -25551,6 +25663,15 @@
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C180404"
+			(at 162.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25794,6 +25915,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 157.48 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C221841"
 			(at 157.48 353.06 0)
 			(effects
 				(font
@@ -26283,7 +26413,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C424649"
+		(property "LCSC Part #" "C597931"
 			(at 113.03 271.78 0)
 			(effects
 				(font
@@ -27319,6 +27449,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C12891"
+			(at 393.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f94264e3-4c1b-4ec1-8bcc-d9797e4b5ddf")
 		)
@@ -27591,6 +27730,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 393.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C12891"
 			(at 393.7 120.65 0)
 			(effects
 				(font
@@ -28552,6 +28700,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C221661"
+			(at 276.86 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a23cb6d-d617-4c2d-b18a-5da5cd2d26d1")
 		)
@@ -29083,7 +29240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C269673"
+		(property "LCSC Part #" "C852472"
 			(at 386.08 154.94 0)
 			(effects
 				(font
@@ -29299,6 +29456,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2682616"
+			(at 458.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "5c2edc1c-c2b8-444f-a99e-3e7605e287fc")
 		)
@@ -29449,6 +29615,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 487.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C852472"
 			(at 487.68 161.29 0)
 			(effects
 				(font
@@ -30846,6 +31021,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C72043"
+			(at 436.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e698df05-f696-4964-8744-1d74f4e45b5a")
 		)
@@ -31400,6 +31584,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C190095"
+			(at 393.7 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47c5672b-6411-4086-b5fc-65a92b62f3f3")
 		)
@@ -31461,6 +31654,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 393.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C12891"
 			(at 393.7 143.51 0)
 			(effects
 				(font
@@ -32524,6 +32726,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22239874"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "203f2368-75df-4e88-9f81-7311203e44ea")
 		)
@@ -33156,6 +33367,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-SM4-TB/926641"
+			(at 425.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2763702"
+			(at 425.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
