@@ -14757,6 +14757,17 @@
 		)
 		(uuid "ac98bd8a-ac92-4f82-a90c-cd33ec52dc73")
 	)
+	(text "Wrong SMD part size!"
+		(exclude_from_sim no)
+		(at 147.066 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 224 1)
+			)
+		)
+		(uuid "aef8592f-6bff-4760-b4eb-2dd1b62bb3d5")
+	)
 	(text "Stemma/QUIIC Connector for external sensors"
 		(exclude_from_sim no)
 		(at 90.17 49.022 0)
@@ -14799,6 +14810,17 @@
 			)
 		)
 		(uuid "d5e73998-70a0-4fdd-9f62-19ca139b9ae4")
+	)
+	(text "Part not correct?"
+		(exclude_from_sim no)
+		(at 44.958 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 224 1)
+			)
+		)
+		(uuid "da024196-9f13-4968-8d20-24f3627a8142")
 	)
 	(text "Camera Connectors"
 		(exclude_from_sim no)
@@ -20922,7 +20944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 232.791 53.213 0)
 			(effects
 				(font
@@ -21011,7 +21033,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C117956"
+		(property "LCSC Part #" "C19702"
 			(at 229.87 52.07 0)
 			(effects
 				(font
@@ -21218,7 +21240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C106235"
 			(at 429.26 157.48 90)
 			(effects
 				(font
@@ -22057,7 +22079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C22962"
+		(property "LCSC Part #" "C106231"
 			(at 60.96 312.42 0)
 			(effects
 				(font
@@ -22296,7 +22318,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C106235"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -22630,7 +22652,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C181863"
+		(property "LCSC Part #" "C264407"
 			(at 176.53 147.32 0)
 			(effects
 				(font
@@ -23279,7 +23301,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C22962"
+		(property "LCSC Part #" "C22962"
 			(at 54.61 351.79 0)
 			(effects
 				(font
@@ -23920,7 +23942,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C21189"
+		(property "LCSC Part #" "C106231"
 			(at 83.82 69.85 0)
 			(effects
 				(font
@@ -24329,7 +24351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C181863"
+		(property "LCSC Part #" "C264407"
 			(at 436.88 154.94 0)
 			(effects
 				(font
@@ -24714,6 +24736,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_11")
+		(lib_id "power:GND")
+		(at 450.85 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ebb0118-6e70-4996-a788-04689c0608a9")
+		(property "Reference" "#PWR018"
+			(at 450.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 450.85 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 450.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 450.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 450.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc8ec4cb-4bc2-4de2-b1b5-4d29d5b6a116")
+		)
+		(instances
+			(project "uCM4"
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 55.88 55.88 90)
@@ -25091,7 +25180,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C21189"
+		(property "LCSC Part #" "C21189"
 			(at 34.29 55.88 0)
 			(effects
 				(font
@@ -25670,7 +25759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C180404"
+		(property "LCSC Part #" "C3294465"
 			(at 162.56 73.66 90)
 			(effects
 				(font
@@ -27659,7 +27748,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C22962"
+		(property "LCSC Part #" "C106231"
 			(at 60.96 309.88 0)
 			(effects
 				(font
@@ -30157,7 +30246,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C21189"
+		(property "LCSC Part #" "C106231"
 			(at 63.5 237.49 0)
 			(effects
 				(font
@@ -30244,7 +30333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C5123485"
 			(at 195.58 116.84 0)
 			(effects
 				(font
@@ -30456,7 +30545,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C106235"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -30935,7 +31024,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C5123485"
 			(at 166.37 162.56 0)
 			(effects
 				(font
@@ -31021,7 +31110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C5123485"
 			(at 436.88 160.02 0)
 			(effects
 				(font
@@ -31162,7 +31251,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C14445"
+		(property "LCSC Part #" "C77177"
 			(at 378.46 144.78 90)
 			(effects
 				(font
@@ -31444,7 +31533,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C106235"
 			(at 154.94 162.56 0)
 			(effects
 				(font
@@ -32726,7 +32815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22239874"
+		(property "LCSC Part #" "C32713288"
 			(at 48.26 58.42 0)
 			(effects
 				(font

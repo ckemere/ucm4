@@ -3,4 +3,5 @@
   (lib (name "Special")(type "KiCad")(uri "${KIPRJMOD}/Special.pretty")(options "")(descr ""))
   (lib (name "KiCAD_Randoms")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Randoms.pretty")(options "")(descr ""))
   (lib (name "CM4")(type "KiCad")(uri "${KIPRJMOD}/CM4.pretty")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.pretty")(options "")(descr ""))
 )
