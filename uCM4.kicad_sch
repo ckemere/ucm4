@@ -14757,17 +14757,6 @@
 		)
 		(uuid "ac98bd8a-ac92-4f82-a90c-cd33ec52dc73")
 	)
-	(text "Wrong SMD part size!"
-		(exclude_from_sim no)
-		(at 147.066 44.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 224 1)
-			)
-		)
-		(uuid "aef8592f-6bff-4760-b4eb-2dd1b62bb3d5")
-	)
 	(text "Stemma/QUIIC Connector for external sensors"
 		(exclude_from_sim no)
 		(at 90.17 49.022 0)
@@ -14810,17 +14799,6 @@
 			)
 		)
 		(uuid "d5e73998-70a0-4fdd-9f62-19ca139b9ae4")
-	)
-	(text "Part not correct?"
-		(exclude_from_sim no)
-		(at 44.958 32.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 224 1)
-			)
-		)
-		(uuid "da024196-9f13-4968-8d20-24f3627a8142")
 	)
 	(text "Camera Connectors"
 		(exclude_from_sim no)
