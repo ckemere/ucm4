@@ -12477,6 +12477,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Supervisor:TPS3839DBZ"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS3839DBZ"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150-nA, Ultralow Power, Supply Voltage Monitor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "supply voltage supervisor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS3839DBZ_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS3839DBZ_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Motion:BNO055"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -14581,7 +14722,7 @@
 		)
 		(uuid "10eb3f57-edd4-4d9d-8135-39fc615c91b1")
 	)
-	(text "Issue #1: (FIXED, CONFIRM) Switched I2C connecitons"
+	(text "Issue #1: (FIXED, CONFIRM) Switched I2C connections"
 		(exclude_from_sim no)
 		(at 47.752 185.166 0)
 		(effects
@@ -14633,18 +14774,7 @@
 		)
 		(uuid "4924b73f-d2b8-46a0-8ab1-646096a7f26e")
 	)
-	(text "Make sure GPIOS work here"
-		(exclude_from_sim no)
-		(at 188.214 52.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 6 0 1)
-			)
-		)
-		(uuid "4978c308-617b-4725-9aa6-7381ffdb201a")
-	)
-	(text "This divider produces ~5.15V"
+	(text "This divider produces ~5.1V"
 		(exclude_from_sim no)
 		(at 390.398 171.45 0)
 		(effects
@@ -14654,16 +14784,16 @@
 		)
 		(uuid "4aecfa76-968e-4a82-bc4f-3275855ec3e9")
 	)
-	(text "How long do we want these pins to be?"
+	(text "Issue #11: (FIXED) Feedforward cap removed"
 		(exclude_from_sim no)
-		(at 160.782 36.068 0)
+		(at 358.394 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 16 55 1)
+				(color 255 0 7 1)
 			)
 		)
-		(uuid "551a6c58-a80a-4978-b5c7-7dc2196db05d")
+		(uuid "5ac4a0ba-a4f9-4b6e-a19a-e18bc87cfeae")
 	)
 	(text "UART extension pins (FDTI compatible)"
 		(exclude_from_sim no)
@@ -14695,9 +14825,9 @@
 		)
 		(uuid "6a7b3172-0ca7-4af1-8020-83e146d03d87")
 	)
-	(text "Issue #7: Fix R19 value"
+	(text "Issue #7 (FIXED): Fix R19 value"
 		(exclude_from_sim no)
-		(at 337.566 174.752 0)
+		(at 394.462 168.148 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14736,7 +14866,7 @@
 		)
 		(uuid "8530ad71-1196-4d2a-9c75-8cdf9800d37f")
 	)
-	(text "Issue #2: (FIXED, CONFIRM) Switched I2C connecitons."
+	(text "Issue #2: (FIXED, CONFIRM) Switched I2C connections."
 		(exclude_from_sim no)
 		(at 48.006 188.214 0)
 		(effects
@@ -14747,18 +14877,29 @@
 		)
 		(uuid "871abe1e-7143-496a-867c-6ba176c2ce6a")
 	)
-	(text "Issue #11: (FIXED) Feedforward cap removed"
+	(text "Issue #2: (FIXED, CONFIRM) Switched I2C connections."
 		(exclude_from_sim no)
-		(at 334.264 171.45 0)
+		(at 531.114 109.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 7 1)
 			)
 		)
-		(uuid "8b3f120d-b165-4a1b-9a82-f831b6bf360d")
+		(uuid "8c6403aa-8014-4ecd-9e11-98b7cd255af7")
 	)
-	(text "Fixed switches s1, s2"
+	(text "Issue #15 (boost protection)- (FIXED) least changes: Threw in this voltage monitor to disable boost at 2.93V:\nTPS3839K33. Also adds startup delay for voltage stabilization."
+		(exclude_from_sim no)
+		(at 330.454 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "8ec34f31-1413-4a2e-8353-01912b4d257c")
+	)
+	(text "Issue: Fixed switches s1, s2"
 		(exclude_from_sim no)
 		(at 267.462 187.96 0)
 		(effects
@@ -14769,6 +14910,17 @@
 		)
 		(uuid "9203c84e-a324-44e4-932c-7adf33adf80e")
 	)
+	(text "Issue- move power switch to front of board for easy access"
+		(exclude_from_sim no)
+		(at 463.296 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "92725127-a6ea-4eb3-b692-55505938c1e3")
+	)
 	(text "Power path"
 		(exclude_from_sim no)
 		(at 488.696 173.736 0)
@@ -14778,6 +14930,17 @@
 			)
 		)
 		(uuid "9448754a-e696-49bb-82c7-2c17ad327208")
+	)
+	(text "Issue- switch headers with lower profile SMD headers"
+		(exclude_from_sim no)
+		(at 115.57 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "962015fd-e5c8-448f-bec3-f2b5fc2a5c19")
 	)
 	(text "Might be worth double checking pins one more time."
 		(exclude_from_sim no)
@@ -14799,6 +14962,17 @@
 			)
 		)
 		(uuid "ac98bd8a-ac92-4f82-a90c-cd33ec52dc73")
+	)
+	(text "Issue #15:\nOptions\nReplace with TPS61230A?\nReplace with https://www.ti.com/lit/ds/symlink/tps61089.pdf?ts=1768526433213&ref_url=https%253A%252F%252Feu.mouser.com%252F\nImplement 1.8V UVLO?\nhttps://www.ti.com/lit/an/slvaen1a/slvaen1a.pdf?ts=1768525897594&ref_url=https%253A%252F%252Fclaude.ai%252F"
+		(exclude_from_sim no)
+		(at 694.436 222.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "ad32e78f-a60a-4e6f-a47e-7958e746ee49")
 	)
 	(text "Stemma/QUIIC Connector for external sensors"
 		(exclude_from_sim no)
@@ -14831,17 +15005,6 @@
 			)
 		)
 		(uuid "ccba4e8d-504b-4498-886a-1b4236b8b79c")
-	)
-	(text "Issue #15:\nOptions\nReplace with TPS61230A?\nReplace with https://www.ti.com/lit/ds/symlink/tps61089.pdf?ts=1768526433213&ref_url=https%253A%252F%252Feu.mouser.com%252F\nImplement 1.8V UVLO?\nhttps://www.ti.com/lit/an/slvaen1a/slvaen1a.pdf?ts=1768525897594&ref_url=https%253A%252F%252Fclaude.ai%252F"
-		(exclude_from_sim no)
-		(at 357.886 132.334 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "d2ce1eb3-565c-44aa-a185-ee57b5ef2eaa")
 	)
 	(text "Camera Connectors"
 		(exclude_from_sim no)
@@ -14883,6 +15046,17 @@
 		)
 		(uuid "e159805f-63b8-49d0-baa4-9b5047357a31")
 	)
+	(text "Issue: FET failing.\nReplaced with higher compliance drop-in part."
+		(exclude_from_sim no)
+		(at 538.734 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "ea8e0922-ae8a-407c-a8cf-487bf6706b24")
+	)
 	(text "WiFi Keepout?"
 		(exclude_from_sim no)
 		(at 226.568 194.31 0)
@@ -14893,6 +15067,17 @@
 			)
 		)
 		(uuid "ee3574af-3cb6-4357-bc2d-4829a62a42a4")
+	)
+	(text "Issue: ensure no I2C GPS collisions (FIXED) changed to I2C6"
+		(exclude_from_sim no)
+		(at 170.18 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 4 31 1)
+			)
+		)
+		(uuid "ee7a2f2e-9992-4d2d-af98-50538b11e118")
 	)
 	(text "Issue #5: (FIXED) +3.3v replaced with 3V3"
 		(exclude_from_sim no)
@@ -15070,12 +15255,6 @@
 		(uuid "48a0baee-5e66-4cd7-97fd-fc1711c5676b")
 	)
 	(junction
-		(at 342.9 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48ebfec3-46ce-4ce3-ae9c-e397b1799b21")
-	)
-	(junction
 		(at 78.74 254)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -15200,12 +15379,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "820f78e0-9dd2-45ef-8e71-905792025b2f")
-	)
-	(junction
-		(at 353.06 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "825d38a4-3cc1-4826-80b8-135b51e3f2cc")
 	)
 	(junction
 		(at 142.24 243.84)
@@ -15546,10 +15719,6 @@
 		(uuid "67b944cc-9d7b-4ec0-b0d1-dfe363ac02e9")
 	)
 	(no_connect
-		(at 140.97 261.62)
-		(uuid "7520a007-3d91-4ae4-881a-b1034a92c424")
-	)
-	(no_connect
 		(at 494.03 58.42)
 		(uuid "7aaa13a3-01cf-423f-86ea-a8e73d5c464f")
 	)
@@ -15688,10 +15857,6 @@
 	(no_connect
 		(at 158.75 127)
 		(uuid "b8e1e7f3-c867-4815-bfa8-4435a4d0f13b")
-	)
-	(no_connect
-		(at 140.97 274.32)
-		(uuid "bc1e2e62-aff9-4b7a-978b-c15803b3d76f")
 	)
 	(no_connect
 		(at 48.26 144.78)
@@ -16243,16 +16408,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 148.59) (xy 353.06 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24bdf72a-4a14-4667-b16e-f607f4afb2f1")
-	)
-	(wire
-		(pts
 			(xy 149.86 248.92) (xy 140.97 248.92)
 		)
 		(stroke
@@ -16370,6 +16525,16 @@
 			(type solid)
 		)
 		(uuid "2c1b6556-0fc2-436b-87b4-41c41ba1aacc")
+	)
+	(wire
+		(pts
+			(xy 341.63 163.83) (xy 347.98 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7ef1f1-d531-4331-be24-bc6e6388744a")
 	)
 	(wire
 		(pts
@@ -16760,6 +16925,16 @@
 			(type solid)
 		)
 		(uuid "4e569d79-e086-48b8-8e06-2f45e98c3f80")
+	)
+	(wire
+		(pts
+			(xy 140.97 261.62) (xy 149.86 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9d69a3-eb38-4348-98f2-2af0d3410c73")
 	)
 	(wire
 		(pts
@@ -17233,6 +17408,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 148.59) (xy 353.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75817e83-e3b0-4334-a6b6-0b34be03f474")
+	)
+	(wire
+		(pts
 			(xy 142.24 269.24) (xy 142.24 281.94)
 		)
 		(stroke
@@ -17373,6 +17558,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1037a4-60b6-486e-8690-9b0dacc2a5f1")
+	)
+	(wire
+		(pts
 			(xy 252.73 321.31) (xy 252.73 328.93)
 		)
 		(stroke
@@ -17410,16 +17605,6 @@
 			(type solid)
 		)
 		(uuid "7d6f7fca-aedb-46e1-9d94-b708d2d811f0")
-	)
-	(wire
-		(pts
-			(xy 353.06 148.59) (xy 353.06 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80157047-8969-44a9-8e7c-c62ec842b26f")
 	)
 	(wire
 		(pts
@@ -17480,6 +17665,16 @@
 			(type solid)
 		)
 		(uuid "82705b4b-54e3-468a-bfff-aa903fcbb281")
+	)
+	(wire
+		(pts
+			(xy 140.97 274.32) (xy 149.86 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bcdbe2-8187-4d45-9abd-b6aa572b0fc1")
 	)
 	(wire
 		(pts
@@ -17870,6 +18065,16 @@
 			(type default)
 		)
 		(uuid "9b200c8c-6639-4d97-8137-1505b63ddf98")
+	)
+	(wire
+		(pts
+			(xy 342.9 138.43) (xy 353.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b68f52f-5f48-49bd-8341-1c13824b6fc2")
 	)
 	(wire
 		(pts
@@ -18313,6 +18518,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 138.43) (xy 353.06 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6488048-e97d-46f1-ad57-e8ea46c1cabb")
+	)
+	(wire
+		(pts
 			(xy 149.86 254) (xy 140.97 254)
 		)
 		(stroke
@@ -18330,6 +18545,16 @@
 			(type default)
 		)
 		(uuid "bc9e895d-7ec7-4695-9181-fb6a0a2e9d38")
+	)
+	(wire
+		(pts
+			(xy 347.98 163.83) (xy 347.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7846b8-8717-4982-920f-5efca81bfc83")
 	)
 	(wire
 		(pts
@@ -18893,6 +19118,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 87.63) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e459be9a-2453-4516-872f-9530804bd383")
+	)
+	(wire
+		(pts
 			(xy 292.735 78.74) (xy 288.29 78.74)
 		)
 		(stroke
@@ -19191,6 +19426,16 @@
 		)
 		(uuid "fc27d358-b458-4ece-9bcf-365fb2a12dff")
 	)
+	(wire
+		(pts
+			(xy 135.89 87.63) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa69606-77ca-4efc-a4a3-743aa77e86b5")
+	)
 	(label "CAM1_D3_N"
 		(at 73.66 144.78 0)
 		(effects
@@ -19421,6 +19666,16 @@
 		)
 		(uuid "24b73e4e-7a71-45b0-b2dd-7e5d33958d9f")
 	)
+	(label "SCL6"
+		(at 170.18 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2525ba34-0050-4348-8269-90b254da2739")
+	)
 	(label "SPI6_SCLK"
 		(at 149.86 246.38 0)
 		(effects
@@ -19451,16 +19706,6 @@
 		)
 		(uuid "2836bbce-3e39-4458-87b8-8a525ed854f7")
 	)
-	(label "SCL0"
-		(at 170.18 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e430e53-2224-4bdc-8f9f-5fa74ccc15f9")
-	)
 	(label "BOOST_IN"
 		(at 342.9 133.35 0)
 		(effects
@@ -19480,6 +19725,16 @@
 			(justify left bottom)
 		)
 		(uuid "307afa07-0190-48fe-a6cd-ac78f6ce670c")
+	)
+	(label "SDA6"
+		(at 135.89 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31d80c90-55e9-435b-8cd9-85e129bb6cff")
 	)
 	(label "USB_N"
 		(at 450.85 54.61 0)
@@ -19541,6 +19796,16 @@
 			(justify right bottom)
 		)
 		(uuid "3e3008df-5080-42c6-b490-0c18b3db8073")
+	)
+	(label "SDA6"
+		(at 157.48 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e65bb7e-9ef3-45f3-bdaf-eeed9e360b00")
 	)
 	(label "GPIO_VREF"
 		(at 44.45 81.28 0)
@@ -19691,6 +19956,16 @@
 			(justify right bottom)
 		)
 		(uuid "4fe9ad66-8931-4fa6-b2a7-a561330cdc5d")
+	)
+	(label "GPIO7"
+		(at 149.86 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "539489f2-e12f-43d1-8fed-68aecf5a9dec")
 	)
 	(label "SD_DAT3"
 		(at 149.86 292.1 0)
@@ -19862,16 +20137,6 @@
 		)
 		(uuid "71cd845d-36a1-4225-9aba-d5a61c66cb18")
 	)
-	(label "SCL0"
-		(at 488.95 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "758d3869-4d07-4a0b-be8a-8cc2b70972fd")
-	)
 	(label "CAM0_C_P"
 		(at 175.26 265.43 0)
 		(effects
@@ -19983,16 +20248,6 @@
 		)
 		(uuid "7e57c3b5-213f-4057-90d9-7cc8ac1b5271")
 	)
-	(label "SDA0"
-		(at 488.95 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f9839b2-7d14-413a-80f8-0d0557fc2e92")
-	)
 	(label "BAT"
 		(at 420.37 125.73 180)
 		(effects
@@ -20093,15 +20348,15 @@
 		)
 		(uuid "95d7d387-72f3-4709-9114-01f67516a855")
 	)
-	(label "GPIO22"
-		(at 73.66 271.78 180)
+	(label "SDA3"
+		(at 488.95 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "965aba38-492a-4d3a-ba65-11d5fb3298df")
+		(uuid "95e398c3-ea6e-45c4-8acc-7573f2a50b74")
 	)
 	(label "BAT"
 		(at 482.6 149.86 180)
@@ -20123,7 +20378,7 @@
 		)
 		(uuid "9a103cb6-0118-4e38-8a4c-4c7c628e039f")
 	)
-	(label "GPIO22"
+	(label "GPIO7"
 		(at 184.15 116.84 180)
 		(effects
 			(font
@@ -20172,16 +20427,6 @@
 			(justify left bottom)
 		)
 		(uuid "9eb864b1-bca8-4272-8593-5dc05b633200")
-	)
-	(label "SDA0"
-		(at 157.48 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9efd49eb-c6b0-4c2b-bf6f-170ac5981726")
 	)
 	(label "TXD4"
 		(at 149.86 264.16 0)
@@ -20262,6 +20507,16 @@
 			(justify left bottom)
 		)
 		(uuid "abe502d1-d14c-4d65-b1f8-dca788fee77c")
+	)
+	(label "BOOST_IN"
+		(at 331.47 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af1c6719-0e31-4664-a4a2-d6f0ce30a69b")
 	)
 	(label "GPS_READY"
 		(at 157.48 73.66 180)
@@ -20353,6 +20608,16 @@
 		)
 		(uuid "bd7b4997-1b55-4991-8c4d-71f305df943e")
 	)
+	(label "SCL6"
+		(at 149.86 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0096018-4ec3-4dfe-9214-8a652ae0c1bd")
+	)
 	(label "SCL1"
 		(at 73.66 160.02 0)
 		(effects
@@ -20372,6 +20637,16 @@
 			(justify left bottom)
 		)
 		(uuid "c73734f9-b5bb-491f-82b6-db453b489cfa")
+	)
+	(label "SCL6"
+		(at 128.27 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9089aad-eda8-434f-b574-969453d14a52")
 	)
 	(label "CTS0"
 		(at 43.18 63.5 180)
@@ -20433,6 +20708,16 @@
 		)
 		(uuid "d273ebe9-076b-4374-aeb3-cd8991acc85b")
 	)
+	(label "SDA6"
+		(at 73.66 271.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da47d2e8-2051-4cb0-8557-b3cd777b28bd")
+	)
 	(label "TXD3"
 		(at 170.18 68.58 0)
 		(effects
@@ -20472,6 +20757,16 @@
 			(justify right bottom)
 		)
 		(uuid "e4723904-dce7-4d0f-9a97-a48d6812f573")
+	)
+	(label "SCL3"
+		(at 488.95 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6b50066-8e50-4fde-88b6-067af883c9c0")
 	)
 	(label "GPS_TIME_2"
 		(at 73.66 261.62 180)
@@ -21316,6 +21611,74 @@
 			(project "uCM4"
 				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 43.18 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0327a83e-a8f5-483b-956c-402f31b678e9")
+		(property "Reference" "#PWR067"
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dc55770-c568-4120-a4aa-a9e63a264d8d")
+		)
+		(instances
+			(project "uCM4"
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -22257,7 +22620,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3401A"
+		(property "Value" "SI2369DS"
 			(at 487.68 146.05 90)
 			(effects
 				(font
@@ -22295,7 +22658,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15127"
+		(property "LCSC Part #" "C41348108"
 			(at 487.68 152.4 90)
 			(effects
 				(font
@@ -22589,6 +22952,96 @@
 			(project "uCM4"
 				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Supervisor:TPS3839DBZ")
+		(at 331.47 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d5fbd62-6b03-4904-8f45-bbef52a26f3e")
+		(property "Reference" "U3"
+			(at 327.66 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPS3839DBZ"
+			(at 327.66 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 331.47 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf"
+			(at 331.47 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150-nA, Ultralow Power, Supply Voltage Monitor, SOT-23"
+			(at 331.47 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96333"
+			(at 331.47 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Code" "TPS3839K33"
+			(at 321.564 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e20541ee-f105-431c-85b1-487f1d6b1fb9")
+		)
+		(pin "1"
+			(uuid "930e04c8-3f1a-4690-abc2-0db19806dbcc")
+		)
+		(pin "2"
+			(uuid "6f9ecd3a-cc19-4e22-b5e3-025ed397d145")
+		)
+		(instances
+			(project ""
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -23367,6 +23820,74 @@
 			(project ""
 				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 43.18 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27673f5e-3bb2-402f-a0d6-26b1db326bfe")
+		(property "Reference" "#PWR066"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed04b673-26bc-44df-af2d-bf4c243cac27")
+		)
+		(instances
+			(project "uCM4"
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -31162,6 +31683,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 331.47 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7048de-aa19-479f-b37a-4218c8582cbb")
+		(property "Reference" "#PWR065"
+			(at 331.47 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d0f32cc-2684-44e0-bfe0-87f27c17cfe8")
+		)
+		(instances
+			(project "uCM4"
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 55.88 50.8 270)
 		(unit 1)
@@ -31862,6 +32450,137 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 135.89 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6c70f67-9f61-4f49-9557-cbe1bbb818e6")
+		(property "Reference" "R26"
+			(at 140.462 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K 1%"
+			(at 145.542 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.668 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "9239278"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "KOA EUROPE GMBH"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "RK73G1ETQTP2201D         "
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" "120889581"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C60488"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bc70177-7eda-4367-a611-8de85837759a")
+		)
+		(pin "2"
+			(uuid "85da1472-4595-4b2b-b8cf-064c304357e3")
+		)
+		(instances
+			(project "uCM4"
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 393.7 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31877,7 +32596,7 @@
 				)
 			)
 		)
-		(property "Value" "760k"
+		(property "Value" "750k"
 			(at 393.954 156.972 90)
 			(effects
 				(font
@@ -31912,7 +32631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C190095"
+		(property "LCSC Part #" "C2909381"
 			(at 393.7 151.13 90)
 			(effects
 				(font
@@ -33863,6 +34582,137 @@
 			(project "uCM4"
 				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f81c9de1-1577-49bb-a95a-fcacfc4e4500")
+		(property "Reference" "R25"
+			(at 126.492 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K 1%"
+			(at 126.492 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 130.048 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "Farnell"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "9239278"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "KOA EUROPE GMBH"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "RK73G1ETQTP2201D         "
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" "120889581"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C60488"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "242c128e-5395-4dae-9436-f6c3431865ff")
+		)
+		(pin "2"
+			(uuid "d3fced07-3138-4cdb-8499-8595bde2e820")
+		)
+		(instances
+			(project "uCM4"
+				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
+					(reference "R25")
 					(unit 1)
 				)
 			)
