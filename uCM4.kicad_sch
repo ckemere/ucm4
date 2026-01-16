@@ -14758,6 +14758,17 @@
 		)
 		(uuid "8b3f120d-b165-4a1b-9a82-f831b6bf360d")
 	)
+	(text "Fixed switches s1, s2"
+		(exclude_from_sim no)
+		(at 267.462 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 7 1)
+			)
+		)
+		(uuid "9203c84e-a324-44e4-932c-7adf33adf80e")
+	)
 	(text "Power path"
 		(exclude_from_sim no)
 		(at 488.696 173.736 0)
@@ -15487,16 +15498,16 @@
 		(uuid "1f8f67c7-8b7c-4470-a330-7022fb44bed3")
 	)
 	(no_connect
+		(at 161.29 330.2)
+		(uuid "21177ffd-982c-4558-9ae5-0c66f4e741cd")
+	)
+	(no_connect
 		(at 80.01 228.6)
 		(uuid "2205a5f1-dc1c-4c8a-9172-f8faeaa1156e")
 	)
 	(no_connect
 		(at 170.18 81.28)
 		(uuid "2c7173d8-c19c-4130-b90f-8c271cee4533")
-	)
-	(no_connect
-		(at 161.29 335.28)
-		(uuid "2da593de-d41d-4445-9b42-437c11bad220")
 	)
 	(no_connect
 		(at 80.01 233.68)
@@ -15529,6 +15540,10 @@
 	(no_connect
 		(at 80.01 220.98)
 		(uuid "60e770c7-e85e-49c7-901e-b3616dc8193b")
+	)
+	(no_connect
+		(at 266.7 212.09)
+		(uuid "67b944cc-9d7b-4ec0-b0d1-dfe363ac02e9")
 	)
 	(no_connect
 		(at 140.97 261.62)
@@ -15813,10 +15828,6 @@
 	(no_connect
 		(at 251.46 339.09)
 		(uuid "e5b78edb-bff5-4b97-9f1d-66fd704acebf")
-	)
-	(no_connect
-		(at 266.7 217.17)
-		(uuid "e7753527-2fd0-416c-9ddb-f4de61f3217d")
 	)
 	(no_connect
 		(at 140.97 236.22)
@@ -25613,7 +25624,7 @@
 	)
 	(symbol
 		(lib_id "CM4IO:JS102011SCQN")
-		(at 171.45 335.28 0)
+		(at 171.45 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25622,7 +25633,7 @@
 		(fields_autoplaced yes)
 		(uuid "5795e678-d719-43dc-9c6e-20b432ee6095")
 		(property "Reference" "S2"
-			(at 177.8 334.0099 0)
+			(at 177.8 331.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25631,7 +25642,7 @@
 			)
 		)
 		(property "Value" "JS102011SCQN"
-			(at 177.8 336.5499 0)
+			(at 177.8 334.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25640,7 +25651,7 @@
 			)
 		)
 		(property "Footprint" "CM4:SW_JS102011SCQN"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25650,7 +25661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25659,7 +25670,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25668,7 +25679,7 @@
 			)
 		)
 		(property "MF" "C&K"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25678,7 +25689,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.5mm"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25688,7 +25699,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25698,7 +25709,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25708,7 +25719,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/JS102011SCQN/C%2526K/view-part/?ref=eda"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25718,7 +25729,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25728,7 +25739,7 @@
 			)
 		)
 		(property "PARTREV" "8 Oct 21"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25738,7 +25749,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011SCQN/C%2526K/view-part/?ref=snap"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25748,7 +25759,7 @@
 			)
 		)
 		(property "MP" "JS102011SCQN"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25758,7 +25769,7 @@
 			)
 		)
 		(property "Description_1" "Slide Switch SPDT Surface Mount"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25768,7 +25779,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25778,7 +25789,7 @@
 			)
 		)
 		(property "MANUFACTURER" "C&K"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25788,7 +25799,7 @@
 			)
 		)
 		(property "LCSC Part #" "C221661"
-			(at 171.45 335.28 0)
+			(at 171.45 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26611,7 +26622,7 @@
 	(symbol
 		(lib_name "GND_8")
 		(lib_id "power:GND")
-		(at 266.7 219.71 0)
+		(at 266.7 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26620,7 +26631,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d18bb08-f5d4-45b1-bee6-1cee8f2b2bae")
 		(property "Reference" "#PWR014"
-			(at 266.7 226.06 0)
+			(at 266.7 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26629,7 +26640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 220.9799 0)
+			(at 269.24 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26638,7 +26649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 219.71 0)
+			(at 266.7 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26647,7 +26658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 219.71 0)
+			(at 266.7 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26656,7 +26667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 219.71 0)
+			(at 266.7 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28856,7 +28867,7 @@
 	)
 	(symbol
 		(lib_id "CM4IO:JS102011SCQN")
-		(at 276.86 217.17 0)
+		(at 276.86 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28865,7 +28876,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b8bb28b-7358-4d50-a262-a192bfd23ad0")
 		(property "Reference" "S1"
-			(at 283.21 215.8999 0)
+			(at 283.21 213.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28874,7 +28885,7 @@
 			)
 		)
 		(property "Value" "JS102011SCQN"
-			(at 283.21 218.4399 0)
+			(at 283.21 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28883,7 +28894,7 @@
 			)
 		)
 		(property "Footprint" "CM4:SW_JS102011SCQN"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28893,7 +28904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28902,7 +28913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28911,7 +28922,7 @@
 			)
 		)
 		(property "MF" "C&K"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28921,7 +28932,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.5mm"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28931,7 +28942,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28941,7 +28952,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28951,7 +28962,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/JS102011SCQN/C%2526K/view-part/?ref=eda"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28961,7 +28972,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28971,7 +28982,7 @@
 			)
 		)
 		(property "PARTREV" "8 Oct 21"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28981,7 +28992,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011SCQN/C%2526K/view-part/?ref=snap"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28991,7 +29002,7 @@
 			)
 		)
 		(property "MP" "JS102011SCQN"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29001,7 +29012,7 @@
 			)
 		)
 		(property "Description_1" "Slide Switch SPDT Surface Mount"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29011,7 +29022,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29021,7 +29032,7 @@
 			)
 		)
 		(property "MANUFACTURER" "C&K"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29031,7 +29042,7 @@
 			)
 		)
 		(property "LCSC Part #" "C221661"
-			(at 276.86 217.17 0)
+			(at 276.86 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29049,7 +29060,7 @@
 			(uuid "6bad474b-f590-4b3e-a301-d4b5052eb429")
 		)
 		(instances
-			(project ""
+			(project "uCM4"
 				(path "/ab308ddb-f5b4-4376-8062-4d719b3e690f"
 					(reference "S1")
 					(unit 1)
@@ -30877,7 +30888,7 @@
 	(symbol
 		(lib_name "GND_8")
 		(lib_id "power:GND")
-		(at 161.29 337.82 0)
+		(at 161.29 335.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30886,7 +30897,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa957f46-4819-4982-af31-39e8250ad134")
 		(property "Reference" "#PWR09"
-			(at 161.29 344.17 0)
+			(at 161.29 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30895,7 +30906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 339.0899 0)
+			(at 163.83 336.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30904,7 +30915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 337.82 0)
+			(at 161.29 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30913,7 +30924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 337.82 0)
+			(at 161.29 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30922,7 +30933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 337.82 0)
+			(at 161.29 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
