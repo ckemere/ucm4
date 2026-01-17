@@ -25,3 +25,5 @@ fp-info-cache
 *.zip
 .*
 !.github/
+production/
+~*
