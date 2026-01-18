@@ -17816,6 +17816,16 @@
 		)
 		(uuid "093fc0fd-7372-4f43-be58-93aa8b115c67")
 	)
+	(label "SDA0"
+		(at 73.66 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ac4d473-dbe2-4e3b-9e55-e4dd200bcad0")
+	)
 	(label "SD_DAT1"
 		(at 149.86 299.72 0)
 		(effects
@@ -18026,6 +18036,16 @@
 		)
 		(uuid "2836bbce-3e39-4458-87b8-8a525ed854f7")
 	)
+	(label "SCL1"
+		(at 20.32 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2890220d-c0e0-4804-adda-5e18ddef0485")
+	)
 	(label "BOOST_IN"
 		(at 342.9 133.35 0)
 		(effects
@@ -18065,16 +18085,6 @@
 			(justify left bottom)
 		)
 		(uuid "3617e66f-78ff-4c66-ba47-7aa4a9846c49")
-	)
-	(label "SDA0"
-		(at 20.32 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36d6051e-bb66-47a5-a7ed-f963d60c6a41")
 	)
 	(label "SDA0"
 		(at 74.93 317.5 180)
@@ -18648,16 +18658,6 @@
 		)
 		(uuid "866131d5-b05e-4e1f-a570-c3a132e72408")
 	)
-	(label "SCL0"
-		(at 20.32 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86a6f972-1e1b-4fbd-b210-4e30fdb421ab")
-	)
 	(label "PCM_FS"
 		(at 481.33 204.47 0)
 		(effects
@@ -18707,16 +18707,6 @@
 			(justify left bottom)
 		)
 		(uuid "91947dc7-329f-4b76-b5a5-1f80b23814b7")
-	)
-	(label "SCL1"
-		(at 73.66 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9518bf6d-e76c-4f24-8242-9c7b03355e17")
 	)
 	(label "CAM1_C_P"
 		(at 257.81 250.19 0)
@@ -18867,16 +18857,6 @@
 			(justify left bottom)
 		)
 		(uuid "a8496d7f-3ed6-4c92-a53f-3d9b636b02c2")
-	)
-	(label "SDA1"
-		(at 73.66 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9d3c386-a65b-445c-ab36-9772020004a2")
 	)
 	(label "CAM0_D0_N"
 		(at 175.26 247.65 0)
@@ -19168,6 +19148,16 @@
 		)
 		(uuid "e6b50066-8e50-4fde-88b6-067af883c9c0")
 	)
+	(label "SCL0"
+		(at 73.66 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7bd3986-c19a-485d-9d88-8adfca977133")
+	)
 	(label "PCM_CLK"
 		(at 149.86 276.86 0)
 		(effects
@@ -19247,6 +19237,16 @@
 			(justify right bottom)
 		)
 		(uuid "f45cb50d-d7d5-4c82-b2f6-7f05f2e891d8")
+	)
+	(label "SDA1"
+		(at 20.32 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6eed50c-db33-429e-bef8-80f028769957")
 	)
 	(label "SD_DAT2"
 		(at 149.86 302.26 0)
