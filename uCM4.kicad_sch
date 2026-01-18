@@ -12881,28 +12881,6 @@
 		)
 		(uuid "10eb3f57-edd4-4d9d-8135-39fc615c91b1")
 	)
-	(text "Issue #1: (FIXED, CONFIRM) Switched I2C connections"
-		(exclude_from_sim no)
-		(at 47.752 185.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "23d26001-a530-44eb-ba21-d8a0ae198bc9")
-	)
-	(text "Issue: Add audio input"
-		(exclude_from_sim no)
-		(at 51.308 192.278 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "29a0bb66-032a-4554-8375-e9d4323dd691")
-	)
 	(text "Battery"
 		(exclude_from_sim no)
 		(at 423.926 105.41 0)
@@ -12964,17 +12942,6 @@
 		)
 		(uuid "4aecfa76-968e-4a82-bc4f-3275855ec3e9")
 	)
-	(text "Issue #11: (FIXED) Feedforward cap removed"
-		(exclude_from_sim no)
-		(at 358.394 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "5ac4a0ba-a4f9-4b6e-a19a-e18bc87cfeae")
-	)
 	(text "UART extension pins (FDTI compatible)"
 		(exclude_from_sim no)
 		(at 42.418 40.386 0)
@@ -13004,17 +12971,6 @@
 			)
 		)
 		(uuid "6a7b3172-0ca7-4af1-8020-83e146d03d87")
-	)
-	(text "Issue #7 (FIXED): Fix R19 value"
-		(exclude_from_sim no)
-		(at 394.462 168.148 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "6afbaa28-aceb-4afd-a93b-220e6c607689")
 	)
 	(text "I2C Breakout"
 		(exclude_from_sim no)
@@ -13056,61 +13012,6 @@
 		)
 		(uuid "8530ad71-1196-4d2a-9c75-8cdf9800d37f")
 	)
-	(text "Issue #2: (FIXED, CONFIRM) Switched I2C connections."
-		(exclude_from_sim no)
-		(at 48.006 188.214 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "871abe1e-7143-496a-867c-6ba176c2ce6a")
-	)
-	(text "Issue #2: (FIXED, CONFIRM) Switched I2C connections."
-		(exclude_from_sim no)
-		(at 531.114 109.982 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "8c6403aa-8014-4ecd-9e11-98b7cd255af7")
-	)
-	(text "Issue #15 (boost protection)- (FIXED): For simplicity and reliability, I threw in this voltage monitor to disable boost at 2.93V:\nTPS3839K33. Also adds startup delay for voltage stabilization."
-		(exclude_from_sim no)
-		(at 330.454 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "8ec34f31-1413-4a2e-8353-01912b4d257c")
-	)
-	(text "Issue: Fixed switches s1, s2"
-		(exclude_from_sim no)
-		(at 267.462 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "9203c84e-a324-44e4-932c-7adf33adf80e")
-	)
-	(text "Issue- move power switch to front of board for easy access"
-		(exclude_from_sim no)
-		(at 159.512 364.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "92725127-a6ea-4eb3-b692-55505938c1e3")
-	)
 	(text "Power path"
 		(exclude_from_sim no)
 		(at 488.696 173.736 0)
@@ -13120,38 +13021,6 @@
 			)
 		)
 		(uuid "9448754a-e696-49bb-82c7-2c17ad327208")
-	)
-	(text "Issue- switch headers with lower profile SMD headers\nchange to bottom entry as well"
-		(exclude_from_sim no)
-		(at 115.57 27.432 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "962015fd-e5c8-448f-bec3-f2b5fc2a5c19")
-	)
-	(text "Remove all parts from bottom of board\nCheck HaLow compat if possible"
-		(exclude_from_sim no)
-		(at 465.836 307.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "99ad969d-8f91-40d4-a463-44d5de7f0258")
-	)
-	(text "Might be worth double checking pins one more time."
-		(exclude_from_sim no)
-		(at 262.128 30.988 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 20 4 1)
-			)
-		)
-		(uuid "a9d70720-e32b-4327-95a1-2d4cbd2d0df9")
 	)
 	(text "Charger"
 		(exclude_from_sim no)
@@ -13172,28 +13041,6 @@
 			)
 		)
 		(uuid "b1e1acb2-7964-47c4-bb91-3f609d7f6db6")
-	)
-	(text "Remove non-useful test pins here"
-		(exclude_from_sim no)
-		(at 364.236 198.628 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 20 4 1)
-			)
-		)
-		(uuid "c0ec40f5-cd61-4935-81b4-78dad8531d88")
-	)
-	(text "Issue - no audio (FIXED, CONFIRM):  added audio."
-		(exclude_from_sim no)
-		(at 506.73 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "cb3bbee9-5ef8-442d-ae3e-ac88c1049021")
 	)
 	(text "Issue #4: (FIXED) swap TX/RX pins"
 		(exclude_from_sim no)
@@ -13235,50 +13082,6 @@
 			)
 		)
 		(uuid "e159805f-63b8-49d0-baa4-9b5047357a31")
-	)
-	(text "Issue: FET failing. (FIXED)\nReplaced with higher compliance drop-in part."
-		(exclude_from_sim no)
-		(at 538.734 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "ea8e0922-ae8a-407c-a8cf-487bf6706b24")
-	)
-	(text "WiFi Keepout?"
-		(exclude_from_sim no)
-		(at 226.568 194.31 0)
-		(effects
-			(font
-				(size 2.8194 2.8194)
-				(color 255 2 9 1)
-			)
-		)
-		(uuid "ee3574af-3cb6-4357-bc2d-4829a62a42a4")
-	)
-	(text "Issue: ensure no I2C GPS collisions (FIXED) changed to I2C6"
-		(exclude_from_sim no)
-		(at 170.18 30.988 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 4 31 1)
-			)
-		)
-		(uuid "ee7a2f2e-9992-4d2d-af98-50538b11e118")
-	)
-	(text "Issue #5: (FIXED) +3.3v replaced with 3V3"
-		(exclude_from_sim no)
-		(at 234.442 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 7 1)
-			)
-		)
-		(uuid "f8f66f49-ae63-4703-85d5-8c3228e5f13d")
 	)
 	(text "Breakout Pins"
 		(exclude_from_sim no)
