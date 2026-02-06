@@ -21156,6 +21156,14 @@
 				)
 			)
 		)
+		(property "Threshold voltage" "2.93V"
+			(at 321.564 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e20541ee-f105-431c-85b1-487f1d6b1fb9")
 		)
