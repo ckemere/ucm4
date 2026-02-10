@@ -19831,7 +19831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module"
+		(property "Footprint" "CM4:Raspberry-Pi-4-Compute-Module"
 			(at 223.52 302.26 0)
 			(effects
 				(font
@@ -25390,7 +25390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module"
+		(property "Footprint" "CM4:Raspberry-Pi-4-Compute-Module"
 			(at 255.27 298.45 0)
 			(effects
 				(font
