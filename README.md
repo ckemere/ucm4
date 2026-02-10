@@ -1,6 +1,6 @@
-# CM4-SensorArray
+# CM4-uSAW
 
-Raspberry Pi Compute Module 4 micro carrier board for mulitmodal sensor inputs.
+Raspberry Pi Compute Module 4 micro carrier board with a multimodal Sensor Array and Wireless (uSAW) battery operation.
 
 # Features
 
@@ -10,7 +10,7 @@ Raspberry Pi Compute Module 4 micro carrier board for mulitmodal sensor inputs.
 - GNSS module header (ZED GNSS)
 - Stemma/QUIIC connector
 - Power management
-  - Battery charging
+  - Battery charging & discharging
   - Fuel gauge
   - USB-C or L-ion power source
 - SD card carrier
