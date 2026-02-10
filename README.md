@@ -1,27 +1,27 @@
-# uCM4
+# CM4-SensorArray
 
-Raspberry Pi Compute Module 4 micro carrier board
-
-![PCB render](.github/render.png)
+Raspberry Pi Compute Module 4 micro carrier board for mulitmodal sensor inputs.
 
 # Features
 
-* exactly same size as CM4
-* support for both Lite and eMMC variants of CM4
-* Gigabit Ethernet
-* microSD slot (optional)
-* Micro USB for power and USB 2.0 data transfer
-* USB-OTG support
+- Dual-camera inputs
+- 9-axis IMU
+- Stereo microphones
+- GNSS module header (ZED GNSS)
+- Stemma/QUIIC connector
+- Power management
+  - Battery charging
+  - Fuel gauge
+  - USB-C or L-ion power source
+- SD card carrier
+- UART Extension pins
+- support for both Lite and eMMC variants of CM4
+- USB C for power and USB 2.0 data transfer
+- USB-OTG support
 
 # Table of contents
 
-1. [Customizations](customizations.md)
-2. [Troubleshooting](troubleshooting.md)
-
-# Project page
-
-Complete project page with pictures, updates and so on, is available at
-[Hackaday.io](https://hackaday.io/project/179793-ucm4).
+1. [Sensors](sensors.md)
 
 # License
 
